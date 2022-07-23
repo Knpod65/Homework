@@ -1,0 +1,36 @@
+This is example!
+    Firstly!, I would like to display you the way that my computer win.
+        "How many sticks in the pile: 6
+        There are 6 sticks in the pile.
+        What is your name : Pop
+        Pop , how many sticks you will take (1 or 2): 2
+        There are 4 sticks in the pile.
+        I, smart computer,  takes : 1
+        There are 3 sticks in the pile.
+        Pop , how many sticks you will take (1 or 2): 2
+        There are 1 sticks in the pile.
+        I, smart computer,  takes : 1
+        Pop , takes the last stick.
+        OK. There is no stick left in the pile. We spent 4 times together.
+        I am smart computer and win  !!!!"
+    And lastly, you can monitor on the example way what player gonna win.
+        "How many sticks in the pile: 1
+        There are 1 sticks in the pile.
+        What is your name : Pop
+        Pop , how many sticks you will take (1 or 2): 1
+        Pop , takes the last stick.
+        OK. There is no stick left in the pile. We spent 1 time together.
+        I am smart computer and win  !!!!"
+
+Various bug traps:
+    1. if N>0: "this will check How many sticks are input in the pile game."
+    2. if t==1 or t==2: "this will check how many sticks that you take off only 1 or 2."
+               2.0.1. if N==0: "here will remain if sticks has all been taken off."
+           2.1. elif t>N: "the code can check on condition that you take it more than remaining."
+           2.2. elif t==0: "if you do not take it off, it will display to you."
+           2.3. elif t>2: "you cannot to take it off more than 2 sticks. this will remain you."
+        It same as the path of computer work on.
+    3. else of 1. "this will show if you do not play with computer."
+
+Change sumary:
+    "1 changed file with 55 additions and 24 deletions."
