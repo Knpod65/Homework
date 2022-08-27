@@ -25,7 +25,10 @@ if N>0:
             elif N==0:
                 print("\n")
                 break
-            print("There are",N,"sticks in the pile.\n")
+            if N >=2:
+                print("There are",N,"sticks in the pile.\n")
+            else:
+                print("There are",N,"stick in the pile.\n")
             c+=1
        else:
            re=0
@@ -39,7 +42,10 @@ if N>0:
                     if N==0:
                         print("\n")
                         break
-                    print("There are",N,"sticks in the pile.\n")
+                    if N >=2:
+                        print("There are",N,"sticks in the pile.\n")
+                    else:
+                        print("There are",N,"stick in the pile.\n")
                 elif t>N:
                     print("There are no enough sticks to take.\n")
                     re=1
